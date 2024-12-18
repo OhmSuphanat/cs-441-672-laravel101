@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.as-flex-row {
+    @apply flex;
+}
+
+.as-flex-col {
+    @apply flex flex-col;
+}
+
+.nav-bar {
+    @apply bg-black h-[calc(48px+var(--panel-gap)*2)] w-full justify-between m-[-var(--panel-gap)] fixed z-50
+    top-0 left-0;
+}
+
+.nav-button {
+    @apply box-border bg-transparent border-0 cursor-pointer relative
+    touch-manipulation transition-[background-color,border-color,color,box-shadow,filter,transform]
+    duration-[33ms] align-middle text-[var(--text-subdued,#656565)] min-w-0
+    min-h-[var(--encore-control-size-base,48px)] py-[var(--encore-spacing-tighter-2,8px)]
+    px-[var(--encore-spacing-looser-2,32px)] inline-flex items-center justify-center;
+}
+
+.nav-button:hover {
+   @apply scale-105 text-white;
+}
+
+
+.cover-image-container {
+    @apply rounded-md overflow-auto;
+}
+
+.cover-image {
+    @apply object-cover object-center;
+}
+
+.playlist-header {
+    @apply grid grid-cols-[16px_minmax(120px,_4fr)_minmax(120px,_2fr)_minmax(120px,_1fr)] border-b border-white/10
+    text-gray-400 h-9 gap-4;
+}
+
+
+
+
+
