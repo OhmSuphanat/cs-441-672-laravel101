@@ -1,5 +1,5 @@
 <x-layouts.main title="Songs">
-<div class="bg-white shadow-md rounded-md overflow-hidden max-w-lg mx-auto mt-16 scale-75 sm:scale-90 md:scale-95
+<div class="bg-white shadow-md rounded-md overflow-hidden max-w-lg mx-auto scale-75 sm:scale-90 md:scale-95
     lg:scale-100 xl:scale-100 transition-all ease-in duration-[33ms]">
         <div class="as-flex-row gap-8 100 py-2 px-4 bg-[rgb(80,56,160)] bg-gradient-to-b from-transparent to-black/50 bg-noise">
             <div class="cover-image-container">

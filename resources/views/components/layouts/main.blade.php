@@ -9,6 +9,8 @@
 <body>
     <x-layouts.nav-bar>
     </x-layouts.nav-bar>
-    {{ $slot }}
+    <div class="mt-16">
+        {{ $slot }}
+    </div>
 </body>
 </html>
